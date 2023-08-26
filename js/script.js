@@ -52,11 +52,5 @@ function calcular() {
         document.getElementById("velocidade-marcha-3").textContent = "A Velocidade Máxima da 3a é: " + velocidadeTerceira.toFixed(2) + " Km/h";
         document.getElementById("velocidade-marcha-4").textContent = "A Velocidade Máxima da 4a é: " + velocidadeQuarta.toFixed(2) + " Km/h";
         document.getElementById("velocidade-marcha-5").textContent = "A Velocidade Máxima da 5a é: " + velocidadeQuinta.toFixed(2) + " Km/h";
-
-        console.log("A velocidade máxima da Primeira Marcha é: " + velocidadePrimeira.toFixed(2) + " Km/h");
-        console.log("A velocidade máxima da Segunda Marcha é: " + velocidadeSegunda.toFixed(2) + " Km/h");
-        console.log("A velocidade máxima da Terceira Marcha é: " + velocidadeTerceira.toFixed(2) + " Km/h");
-        console.log("A velocidade máxima da Quarta Marcha é: " + velocidadeQuarta.toFixed(2) + " Km/h");
-        console.log("A velocidade máxima da Quinta Marcha é: " + velocidadeQuinta.toFixed(2) + " Km/h");
     }
 }
