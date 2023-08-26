@@ -22,7 +22,6 @@ function formatarNumero() {
     pneu.value = formattedValue;
 }
 
-
 /** Faz o Calculo */
 function calcular() {
     if (inputValue.length === 7) {
