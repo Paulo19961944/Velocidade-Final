@@ -46,6 +46,7 @@ function calcular() {
         let velocidadeQuarta = (circunferenciaPneu * RPM * 0.06) / (diferencial * quartaMarcha);
         let velocidadeQuinta = (circunferenciaPneu * RPM * 0.06) / (diferencial * quintaMarcha);
 
+        document.getElementById("resultado-final").style.display = "block";
         document.getElementById("velocidade-marcha-1").textContent = "A Velocidade Máxima da 1a é: " + velocidadePrimeira.toFixed(2) + " Km/h";
         document.getElementById("velocidade-marcha-2").textContent = "A Velocidade Máxima da 2a é: " + velocidadeSegunda.toFixed(2) + " Km/h";
         document.getElementById("velocidade-marcha-3").textContent = "A Velocidade Máxima da 3a é: " + velocidadeTerceira.toFixed(2) + " Km/h";
